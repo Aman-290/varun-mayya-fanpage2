@@ -196,7 +196,7 @@ export default function App() {
       <div ref={avatarRef} className="fixed left-[8vw] top-0 z-50 pointer-events-none flex justify-center items-center origin-center">
         {/* Real Avatar Box - Large Square */}
         <div className="relative w-40 h-40 overflow-hidden border-2 border-neon-green shadow-[0_0_20px_#00f5a0] bg-black isolate rounded-lg transition-all duration-300">
-          <img src={`/level/level${currentAvatar}.png`} alt={`Level ${currentAvatar}`} className="w-full h-full object-cover" />
+          <img src={`/level/level${currentAvatar}.webp`} alt={`Level ${currentAvatar}`} className="w-full h-full object-cover" />
         </div>
       </div>
 
@@ -204,7 +204,7 @@ export default function App() {
       <section id="level0" className="h-screen w-full relative flex items-center justify-center px-8 border-b border-white/5 bg-black overflow-hidden">
         {/* CRT Background Layer */}
         <div className="absolute inset-0 z-0 select-none">
-          <img src="/crt.gif" className="w-full h-full object-cover opacity-90 terminal-glow grayscale brightness-[0.15] blur-[1px]" />
+          <img src="/crt.webp" className="w-full h-full object-cover opacity-90 terminal-glow grayscale brightness-[0.15] blur-[1px]" />
           <div className="crt-overlay"></div>
           <div className="scanline"></div>
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-black/80"></div>
@@ -246,7 +246,7 @@ export default function App() {
           <div className="w-full md:w-2/5 flex justify-center relative">
              <div className="absolute inset-0 bg-neon-green/10 blur-[130px] rounded-full scale-75 animate-pulse"></div>
              <div id="hero-avatar" className="relative drop-shadow-[0_0_60px_rgba(0,255,160,0.3)]">
-               <img src="/hero-avatar.png" alt="Hero Avatar" className="w-[420px] h-auto drop-shadow-2xl brightness-110 filter contrast-110" />
+               <img src="/hero-avatar.webp" alt="Hero Avatar" className="w-[420px] h-auto drop-shadow-2xl brightness-110 filter contrast-110" />
              </div>
           </div>
         </div>
@@ -255,8 +255,8 @@ export default function App() {
       {/* LEVEL 1: AVATAR LEFT, CONTENT RIGHT */}
       <section id="level1" className="min-h-screen relative flex items-center py-24 px-8 border-b border-white/5 bg-black">
         <div className="absolute inset-0 z-0">
-          <img src="/pixel_bedroom_1774574653249.png" className="w-full h-full object-cover opacity-20" />
-          <img src="/banglore-skyline.png" className="absolute bottom-0 right-0 w-full h-1/2 object-contain opacity-10 mix-blend-screen" />
+          <img src="/pixel_bedroom_1774574653249.webp" className="w-full h-full object-cover opacity-20" />
+          <img src="/banglore-skyline.webp" className="absolute bottom-0 right-0 w-full h-1/2 object-contain opacity-10 mix-blend-screen" />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-transparent"></div>
         </div>
         <div className="z-10 w-full flex justify-end md:pr-[5vw]">
@@ -264,7 +264,7 @@ export default function App() {
             <h1 className="text-4xl md:text-5xl font-header text-neon-green uppercase mb-12 glitch-hover" data-text="LEVEL 1: THE KID WHO WANTED TO BE SUPERMAN">LEVEL 1: THE KID WHO WANTED TO BE SUPERMAN</h1>
             <div className="bg-bg-panel/90 p-6 md:p-8 rounded-xl border border-white/10 backdrop-blur-sm space-y-4 shadow-xl">
               <div className="flex items-center gap-4 mb-4">
-                <img src="/Brokai_logo.png" className="w-12 h-12 rounded object-contain border border-white/10" alt="Brokai" />
+                <img src="/Brokai_logo.webp" className="w-12 h-12 rounded object-contain border border-white/10" alt="Brokai" />
                 <span className="text-xs font-pixel text-neon-green animate-pulse tracking-tighter">EST. 1993 // BENGALURU</span>
               </div>
               <p className="font-mono text-sm leading-loose">
@@ -283,7 +283,7 @@ export default function App() {
       {/* LEVEL 2: AVATAR RIGHT, CONTENT LEFT */}
       <section id="level2" className="h-screen relative bg-bg-void overflow-hidden flex items-center border-b border-white/5">
         <div className="absolute inset-0 z-0">
-          <img src="/startup_garage_1774574674792.png" className="w-full h-full object-cover opacity-10" />
+          <img src="/startup_garage_1774574674792.webp" className="w-full h-full object-cover opacity-10" />
         </div>
         
         <div id="level2-scroll" className="flex w-[300vw] h-full items-center relative z-10">
@@ -295,15 +295,15 @@ export default function App() {
                 <span className="text-4xl text-white/50">(COLLEGE TO VC)</span>
               </h1>
               <div className="flex gap-4 mt-8">
-                <img src="/Aeos Group logo.jpg" className="w-16 h-16 rounded border border-white/10" />
-                <img src="/YAAS Media logo.jpg" className="w-16 h-16 rounded border border-white/10" />
+                <img src="/Aeos Group logo.webp" className="w-16 h-16 rounded border border-white/10" />
+                <img src="/YAAS Media logo.webp" className="w-16 h-16 rounded border border-white/10" />
               </div>
             </div>
           </div>
           
           <div className="w-[100vw] flex-shrink-0 flex items-center pl-[5vw] pr-[40vw]">
             <div className="bg-bg-panel border-2 border-white/10 p-10 rounded-2xl w-full foil-card relative overflow-hidden">
-               <img src="/aevytvlogo.jpg" className="absolute -right-8 -top-8 w-32 h-32 opacity-10 rotate-12" />
+               <img src="/aevytvlogo.webp" className="absolute -right-8 -top-8 w-32 h-32 opacity-10 rotate-12" />
                <h2 className="font-pixel text-md text-neon-gold mb-6 relative z-10">QUEST 1: SIZR Studios (Age 19)</h2>
                <p className="text-lg leading-relaxed text-white/80 relative z-10">
                 T-shirt company turned oDesk freelance dev. Billed $100/hr.<br/>
@@ -333,7 +333,7 @@ export default function App() {
       {/* LEVEL 3: AVATAR LEFT, CONTENT RIGHT */}
       <section id="level3" className="min-h-screen relative flex items-center py-32 px-8 border-b border-neon-red/30 bg-black overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="/boss_skull_1774574898656.png" className="w-full h-full object-cover opacity-20 mix-blend-screen" />
+          <img src="/boss_skull_1774574898656.webp" className="w-full h-full object-cover opacity-20 mix-blend-screen" />
           <div className={`absolute inset-0 transition-opacity duration-300 ${isRedAlert ? 'bg-red-900/10' : 'bg-transparent'}`}></div>
         </div>
         <div className="z-10 w-full flex justify-end md:pr-[5vw]">
@@ -359,7 +359,7 @@ export default function App() {
                   Acquired by Unacademy's Graphy (June 2023).
                 </div>
               </div>
-              <img src="/Overpowered channel logo.jpg" className="w-24 h-24 border-2 border-neon-red shadow-[0_0_20px_rgba(255,59,92,0.5)] rounded-full animate-bounce" />
+              <img src="/Overpowered channel logo.webp" className="w-24 h-24 border-2 border-neon-red shadow-[0_0_20px_rgba(255,59,92,0.5)] rounded-full animate-bounce" />
             </div>
           </div>
         </div>
@@ -368,11 +368,11 @@ export default function App() {
       {/* LEVEL 4: AVATAR RIGHT, CONTENT LEFT */}
       <section id="level4" className="min-h-screen relative flex items-center py-32 px-8 border-b border-white/10 bg-[#06060c]">
         <div className="absolute inset-0 z-0 opacity-20 flex pointer-events-none">
-           <img src="/The Content Creator Handbook — book cover image.jpg" className="w-48 h-auto rotate-12 -translate-x-10 translate-y-20" />
-           <img src="/Pyjama Profit — book cover image.jpg" className="w-48 h-auto -rotate-12 translate-x-40 translate-y-60" />
+           <img src="/The Content Creator Handbook — book cover image.webp" className="w-48 h-auto rotate-12 -translate-x-10 translate-y-20" />
+           <img src="/Pyjama Profit — book cover image.webp" className="w-48 h-auto -rotate-12 translate-x-40 translate-y-60" />
         </div>
         <div className="absolute inset-0 z-0">
-          <img src="/cyberpunk_servers_1774574922251.png" className="w-full h-full object-cover opacity-30" />
+          <img src="/cyberpunk_servers_1774574922251.webp" className="w-full h-full object-cover opacity-30" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#06060c] via-transparent to-[#06060c]"></div>
         </div>
         <div className="z-10 w-full flex justify-start pl-[5vw] md:pl-[5vw]">
@@ -381,7 +381,7 @@ export default function App() {
               <h1 className="text-5xl font-header text-[#00f5a0] uppercase tracking-widest flex items-center gap-4 glitch-hover" data-text="LEVEL 4: CLONE JUTSU">
                 <span className="w-8 h-1 bg-[#00f5a0]"></span> LEVEL 4: CLONE JUTSU
               </h1>
-              <img src="/100xEngineers logo.jpg" className="w-16 h-16 rounded border border-blue-500/50" />
+              <img src="/100xEngineers logo.webp" className="w-16 h-16 rounded border border-blue-500/50" />
             </div>
             <h2 className="text-2xl text-white/50 font-mono mb-10">/CONTENT ENGINE</h2>
             
@@ -402,7 +402,7 @@ export default function App() {
               </div>
               
               <div className="bg-black/50 p-6 rounded-xl border border-white/5 relative overflow-hidden">
-                <img src="/Community Masters — cover if it has one.jpg" className="absolute -right-10 -bottom-10 w-40 h-auto opacity-10 -rotate-6" />
+                <img src="/Community Masters — cover if it has one.webp" className="absolute -right-10 -bottom-10 w-40 h-auto opacity-10 -rotate-6" />
                 <h3 className="text-xl font-header text-white mb-6 uppercase border-b border-white/10 pb-2 relative z-10">Inventory:</h3>
                 <ul className="space-y-4 font-mono text-sm text-white/70 relative z-10">
                   <li><span className="text-pink-500 block mb-1">[God In A Box]</span> GPT on WhatsApp.</li>
@@ -418,7 +418,7 @@ export default function App() {
       {/* LEVEL 5: AVATAR LEFT, CONTENT RIGHT */}
       <section id="level5" className="min-h-screen relative flex items-center py-32 px-8 overflow-hidden border-b border-white/10">
         <div className="absolute inset-0 z-0">
-          <img src="/unleash_avatar_1774574979324.png" className="w-full h-full object-cover opacity-40 mix-blend-luminosity" />
+          <img src="/unleash_avatar_1774574979324.webp" className="w-full h-full object-cover opacity-40 mix-blend-luminosity" />
           <div className="absolute inset-0 bg-gradient-to-b from-[#06060c] via-black/50 to-black"></div>
           {/* Fog animation simulation */}
           <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black to-transparent opacity-80 blur-2xl translate-y-20"></div>
@@ -426,7 +426,7 @@ export default function App() {
         <div className="z-10 w-full flex justify-end pr-[5vw] md:pr-[10vw]">
           <div className="max-w-4xl text-left space-y-8 mt-20 p-8 rounded border border-[#f5a623]/20 bg-black/60 backdrop-blur relative">
             <div className="absolute -left-12 -top-12 border border-[#f5a623]/30 p-2 shadow-[0_0_30px_rgba(245,166,35,0.2)] bg-black/80 rotate-[-5deg]">
-               <img src="/Unleash the Avatar logo.jpg" className="w-40 h-auto" />
+               <img src="/Unleash the Avatar logo.webp" className="w-40 h-auto" />
             </div>
             <h1 className="text-5xl md:text-7xl font-cinematic text-white drop-shadow-[0_0_20px_rgba(255,100,50,0.5)] glitch-hover" data-text="LEVEL 5: PROJECT 11A">
               LEVEL 5:<br/>PROJECT 11A
@@ -440,7 +440,7 @@ export default function App() {
               <div className="space-y-4 font-mono text-sm leading-relaxed text-white/80">
                 <p><span className="text-white font-bold">Studio:</span> Aeos Games (Co-founded with Rohan).</p>
                 <p><span className="text-white font-bold">Engine:</span> Unreal Engine 5.</p>
-                <img src="/Unleash the Avatar.jpg" className="w-full h-40 object-cover border border-white/10 mt-4 rounded" />
+                <img src="/Unleash the Avatar.webp" className="w-full h-40 object-cover border border-white/10 mt-4 rounded" />
               </div>
               <div className="space-y-4 font-mono text-sm leading-relaxed text-white/80">
                 <p><span className="text-white font-bold">Team:</span> 40+ veterans (Ghost of Tsushima core).</p>
@@ -476,7 +476,7 @@ export default function App() {
           <div className="foil-card w-full md:w-1/4 bg-bg-panel border border-[#00f5a0]/30 rounded-xl overflow-hidden shadow-[0_5px_20px_rgba(0,245,160,0.05)] cursor-crosshair">
             <div className="h-64 overflow-hidden relative border-b border-white/10">
               <div className="absolute inset-0 bg-gradient-to-t from-[#12121e] to-transparent z-10"></div>
-              <img src="/Rohan Mayya.jpg" className="w-full h-full object-cover object-top filter contrast-125 saturate-50" alt="Rohan" />
+              <img src="/Rohan Mayya.webp" className="w-full h-full object-cover object-top filter contrast-125 saturate-50" alt="Rohan" />
             </div>
             <div className="p-6 text-left relative z-20">
               <h3 className="text-2xl text-white mb-1">Rohan Mayya</h3>
@@ -502,7 +502,7 @@ export default function App() {
           <div className="foil-card w-full md:w-1/4 bg-bg-panel border border-pink-500/30 rounded-xl overflow-hidden shadow-[0_5px_20px_rgba(255,0,150,0.05)] cursor-crosshair">
             <div className="h-64 overflow-hidden relative border-b border-white/10">
               <div className="absolute inset-0 bg-gradient-to-t from-[#12121e] to-transparent z-10"></div>
-              <img src="/Shashank Udupa.jpg" className="w-full h-full object-cover object-top filter contrast-125 saturate-0" alt="Shashank" />
+              <img src="/Shashank Udupa.webp" className="w-full h-full object-cover object-top filter contrast-125 saturate-0" alt="Shashank" />
             </div>
             <div className="p-6 text-left relative z-20">
               <h3 className="text-2xl text-white mb-1">Shashank Udupa</h3>
@@ -539,7 +539,7 @@ export default function App() {
           <div className="w-[85vw] flex-shrink-0 flex items-center pr-20 relative group">
             <div className="bg-bg-panel/40 border-l-4 border-neon-green p-12 backdrop-blur-xl w-full max-w-4xl foil-card relative overflow-hidden flex flex-col md:flex-row gap-10 items-center">
               <div className="w-full md:w-1/3 flex-shrink-0 relative">
-                 <img src="/Pyjama Profit — book cover image.jpg" className="w-full h-auto rounded border border-white/10 rotate-[-5deg] grayscale group-hover:grayscale-0 transition-all duration-700 shadow-2xl" />
+                 <img src="/Pyjama Profit — book cover image.webp" className="w-full h-auto rounded border border-white/10 rotate-[-5deg] grayscale group-hover:grayscale-0 transition-all duration-700 shadow-2xl" />
                  <div className="absolute inset-0 bg-neon-green/10 mix-blend-color group-hover:opacity-0 transition-opacity"></div>
               </div>
               <div className="flex-1 space-y-6">
@@ -556,7 +556,7 @@ export default function App() {
           <div className="w-[85vw] flex-shrink-0 flex items-center pr-20 relative group">
             <div className="bg-bg-panel/40 border-l-4 border-[#0ff] p-12 backdrop-blur-xl w-full max-w-4xl foil-card relative overflow-hidden flex flex-col md:flex-row gap-10 items-center">
               <div className="w-full md:w-1/3 flex-shrink-0 overflow-hidden rounded-xl border border-white/5">
-                 <img src="/Abhinav Chhikara.jpg" className="w-full h-full object-cover filter contrast-125 saturate-50 group-hover:saturate-100 transition-all duration-700" />
+                 <img src="/Abhinav Chhikara.webp" className="w-full h-full object-cover filter contrast-125 saturate-50 group-hover:saturate-100 transition-all duration-700" />
               </div>
               <div className="flex-1 space-y-6">
                  <h3 className="text-4xl font-header text-white mb-4 uppercase tracking-tighter">The Curse of Knowledge</h3>
@@ -572,7 +572,7 @@ export default function App() {
           <div className="w-[85vw] flex-shrink-0 flex items-center pr-20 relative group">
             <div className="bg-bg-panel/40 border-l-4 border-neon-gold p-12 backdrop-blur-xl w-full max-w-4xl foil-card relative overflow-hidden flex flex-col md:flex-row-reverse gap-10 items-center">
               <div className="w-full md:w-1/3 flex-shrink-0 relative">
-                 <img src="/The Content Creator Handbook — book cover image.jpg" className="w-full h-auto rounded-lg border border-[#f5a623]/30 rotate-[5deg] shadow-[0_20px_50px_rgba(245,166,35,0.2)]" />
+                 <img src="/The Content Creator Handbook — book cover image.webp" className="w-full h-auto rounded-lg border border-[#f5a623]/30 rotate-[5deg] shadow-[0_20px_50px_rgba(245,166,35,0.2)]" />
               </div>
               <div className="flex-1 space-y-6">
                  <h3 className="text-4xl font-header text-white mb-4 uppercase tracking-tighter">Distribution {'>'} Product</h3>
@@ -588,7 +588,7 @@ export default function App() {
           <div className="w-[85vw] flex-shrink-0 flex items-center pr-[10vw] relative group">
             <div className="bg-bg-panel/40 border-l-4 border-neon-red p-12 backdrop-blur-xl w-full max-w-4xl foil-card relative overflow-hidden flex flex-col md:flex-row gap-10 items-center">
               <div className="w-full md:w-1/3 flex-shrink-0">
-                 <img src="/Shashank Udupa.jpg" className="w-full h-auto rounded-full border-4 border-neon-red shadow-[0_0_30px_#ff3b5c] filter contrast-110 sepia-[0.3]" />
+                 <img src="/Shashank Udupa.webp" className="w-full h-auto rounded-full border-4 border-neon-red shadow-[0_0_30px_#ff3b5c] filter contrast-110 sepia-[0.3]" />
               </div>
               <div className="flex-1 space-y-6">
                  <h3 className="text-4xl font-header text-white mb-4 uppercase tracking-tighter">Bootstrap = Hard Mode</h3>
