@@ -220,7 +220,7 @@ export default function App() {
             <div className="font-mono space-y-8">
               <div className="flex gap-4 items-start text-xl md:text-2xl">
                 <span className="text-neon-green flex-shrink-0">C:\&gt;</span>
-                <span id="type-1" className="text-white/80"></span>
+                <span id="type-1" className="text-white drop-shadow-[0_0_8px_rgba(168,85,247,0.8)]"></span>
               </div>
 
               {/* Central Emphasis Area */}
@@ -232,7 +232,7 @@ export default function App() {
               </div>
 
               <div className="pl-12 space-y-4">
-                <div id="type-3" className="text-white/70 border-l-2 border-white/10 pl-6 py-2 italic font-cinematic text-lg max-w-lg"></div>
+                <div id="type-3" className="text-white border-l-2 border-white/10 pl-6 py-2 italic font-cinematic text-lg max-w-lg drop-shadow-[0_0_8px_rgba(168,85,247,0.6)]"></div>
                 
                 <div className="flex items-center gap-6 group">
                   <div className="w-8 h-[1px] bg-neon-green/20"></div>
@@ -262,7 +262,7 @@ export default function App() {
         <div className="z-10 w-full flex justify-end md:pr-[5vw]">
           <div className="max-w-2xl space-y-6">
             <h1 className="text-4xl md:text-5xl font-header text-neon-green uppercase mb-12 glitch-hover" data-text="LEVEL 1: THE KID WHO WANTED TO BE SUPERMAN">LEVEL 1: THE KID WHO WANTED TO BE SUPERMAN</h1>
-            <div className="bg-bg-panel/90 p-6 md:p-8 rounded-xl border border-white/10 backdrop-blur-sm space-y-4 shadow-xl">
+            <div className="bg-bg-panel/90 p-6 md:p-8 rounded-xl border border-neon-green/40 backdrop-blur-sm space-y-4 shadow-[0_0_40px_rgba(0,245,160,0.2)]">
               <div className="flex items-center gap-4 mb-4">
                 <img src="/Brokai_logo.webp" className="w-12 h-12 rounded object-contain border border-white/10" alt="Brokai" />
                 <span className="text-xs font-pixel text-neon-green animate-pulse tracking-tighter">EST. 1993 // BENGALURU</span>
@@ -302,7 +302,7 @@ export default function App() {
           </div>
           
           <div className="w-[100vw] flex-shrink-0 flex items-center pl-[5vw] pr-[40vw]">
-            <div className="bg-bg-panel border-2 border-white/10 p-10 rounded-2xl w-full foil-card relative overflow-hidden">
+            <div className="bg-bg-panel border-2 border-neon-green/30 p-10 rounded-2xl w-full foil-card relative overflow-hidden shadow-[0_0_40px_rgba(0,245,160,0.1)]">
                <img src="/aevytvlogo.webp" className="absolute -right-8 -top-8 w-32 h-32 opacity-10 rotate-12" />
                <h2 className="font-pixel text-md text-neon-gold mb-6 relative z-10">QUEST 1: SIZR Studios (Age 19)</h2>
                <p className="text-lg leading-relaxed text-white/80 relative z-10">
@@ -314,7 +314,7 @@ export default function App() {
           </div>
           
           <div className="w-[100vw] flex-shrink-0 flex items-center pl-[5vw] pr-[40vw]">
-            <div className="bg-bg-panel border-2 border-neon-gold/50 p-10 rounded-2xl w-full shadow-[0_0_30px_rgba(245,166,35,0.2)] foil-card">
+            <div className="bg-bg-panel border-2 border-neon-gold/50 p-10 rounded-2xl w-full shadow-[0_0_50px_rgba(245,166,35,0.3)] foil-card">
               <h2 className="font-pixel text-md text-neon-gold mb-6">QUEST 2: Jobspire (Age 20)</h2>
               <p className="text-lg leading-relaxed text-white/80">
                 Co-founded recruitment platform. Scaled to 190,000 applicants, 1,500+ companies (Uber, Swiggy). Served 4M+ requests.
@@ -376,7 +376,7 @@ export default function App() {
           <div className="absolute inset-0 bg-gradient-to-t from-[#06060c] via-transparent to-[#06060c]"></div>
         </div>
         <div className="z-10 w-full flex justify-start pl-[5vw] md:pl-[5vw]">
-          <div className="w-full max-w-4xl backdrop-blur-md bg-[#0a0f18]/80 border border-blue-500/30 p-10 rounded-3xl shadow-[0_0_40px_rgba(0,100,255,0.1)]">
+          <div className="w-full max-w-4xl backdrop-blur-md bg-[#0a0f18]/80 border border-blue-500/40 p-10 rounded-3xl shadow-[0_0_60px_rgba(0,100,255,0.25)]">
             <div className="flex justify-between items-start mb-4">
               <h1 className="text-5xl font-header text-[#00f5a0] uppercase tracking-widest flex items-center gap-4 glitch-hover" data-text="LEVEL 4: CLONE JUTSU">
                 <span className="w-8 h-1 bg-[#00f5a0]"></span> LEVEL 4: CLONE JUTSU
@@ -401,7 +401,7 @@ export default function App() {
                 </div>
               </div>
               
-              <div className="bg-black/50 p-6 rounded-xl border border-white/5 relative overflow-hidden">
+              <div className="bg-black/50 p-6 rounded-xl border border-white/10 relative overflow-hidden shadow-[0_0_30px_rgba(255,255,255,0.05)]">
                 <img src="/Community Masters — cover if it has one.webp" className="absolute -right-10 -bottom-10 w-40 h-auto opacity-10 -rotate-6" />
                 <h3 className="text-xl font-header text-white mb-6 uppercase border-b border-white/10 pb-2 relative z-10">Inventory:</h3>
                 <ul className="space-y-4 font-mono text-sm text-white/70 relative z-10">
@@ -424,7 +424,7 @@ export default function App() {
           <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black to-transparent opacity-80 blur-2xl translate-y-20"></div>
         </div>
         <div className="z-10 w-full flex justify-end pr-[5vw] md:pr-[10vw]">
-          <div className="max-w-4xl text-left space-y-8 mt-20 p-8 rounded border border-[#f5a623]/20 bg-black/60 backdrop-blur relative">
+          <div className="max-w-4xl text-left space-y-8 mt-20 p-8 rounded border border-[#f5a623]/30 bg-black/60 backdrop-blur relative shadow-[0_0_60px_rgba(245,166,35,0.25)]">
             <div className="absolute -left-12 -top-12 border border-[#f5a623]/30 p-2 shadow-[0_0_30px_rgba(245,166,35,0.2)] bg-black/80 rotate-[-5deg]">
                <img src="/Unleash the Avatar logo.webp" className="w-40 h-auto" />
             </div>
@@ -537,9 +537,9 @@ export default function App() {
           
           {/* Skill Node 1 */}
           <div className="w-[85vw] flex-shrink-0 flex items-center pr-20 relative group">
-            <div className="bg-bg-panel/40 border-l-4 border-neon-green p-12 backdrop-blur-xl w-full max-w-4xl foil-card relative overflow-hidden flex flex-col md:flex-row gap-10 items-center">
+            <div className="bg-bg-panel/40 border-l-4 border-neon-green p-12 backdrop-blur-xl w-full max-w-4xl foil-card relative overflow-hidden flex flex-col md:flex-row gap-10 items-center shadow-[0_0_50px_rgba(0,245,160,0.15)]">
               <div className="w-full md:w-1/3 flex-shrink-0 relative">
-                 <img src="/Pyjama Profit — book cover image.webp" className="w-full h-auto rounded border border-white/10 rotate-[-5deg] grayscale group-hover:grayscale-0 transition-all duration-700 shadow-2xl" />
+                 <img src="/Pyjama Profit — book cover image.webp" className="w-full h-auto rounded border border-white/10 grayscale group-hover:grayscale-0 transition-all duration-700 shadow-2xl book-breathing-left" />
                  <div className="absolute inset-0 bg-neon-green/10 mix-blend-color group-hover:opacity-0 transition-opacity"></div>
               </div>
               <div className="flex-1 space-y-6">
@@ -548,13 +548,16 @@ export default function App() {
                  <div className="p-4 bg-neon-green/10 border border-neon-green/30 text-neon-green text-sm font-mono italic">
                    Perception: As AI replaces tasks, move one level up.
                  </div>
+                 <a href="https://www.amazon.in/Pyjama-Profit-Millennials-Sustainable-Freelance-ebook/dp/B07DLJJG4K" target="_blank" rel="noopener noreferrer" className="inline-block mt-4 text-xs font-pixel text-neon-green/80 hover:text-neon-green hover:underline">
+                   {">>>"} LOOT_KNOWLEDGE_PACKET
+                 </a>
               </div>
             </div>
           </div>
           
           {/* Skill Node 2 */}
           <div className="w-[85vw] flex-shrink-0 flex items-center pr-20 relative group">
-            <div className="bg-bg-panel/40 border-l-4 border-[#0ff] p-12 backdrop-blur-xl w-full max-w-4xl foil-card relative overflow-hidden flex flex-col md:flex-row gap-10 items-center">
+            <div className="bg-bg-panel/40 border-l-4 border-[#0ff] p-12 backdrop-blur-xl w-full max-w-4xl foil-card relative overflow-hidden flex flex-col md:flex-row gap-10 items-center shadow-[0_0_50px_rgba(0,255,255,0.1)]">
               <div className="w-full md:w-1/3 flex-shrink-0 overflow-hidden rounded-xl border border-white/5">
                  <img src="/Abhinav Chhikara.webp" className="w-full h-full object-cover filter contrast-125 saturate-50 group-hover:saturate-100 transition-all duration-700" />
               </div>
@@ -570,9 +573,9 @@ export default function App() {
 
           {/* Skill Node 3 */}
           <div className="w-[85vw] flex-shrink-0 flex items-center pr-20 relative group">
-            <div className="bg-bg-panel/40 border-l-4 border-neon-gold p-12 backdrop-blur-xl w-full max-w-4xl foil-card relative overflow-hidden flex flex-col md:flex-row-reverse gap-10 items-center">
+            <div className="bg-bg-panel/40 border-l-4 border-neon-gold p-12 backdrop-blur-xl w-full max-w-4xl foil-card relative overflow-hidden flex flex-col md:flex-row-reverse gap-10 items-center shadow-[0_0_50px_rgba(245,166,35,0.15)]">
               <div className="w-full md:w-1/3 flex-shrink-0 relative">
-                 <img src="/The Content Creator Handbook — book cover image.webp" className="w-full h-auto rounded-lg border border-[#f5a623]/30 rotate-[5deg] shadow-[0_20px_50px_rgba(245,166,35,0.2)]" />
+                 <img src="/The Content Creator Handbook — book cover image.webp" className="w-full h-auto rounded-lg border border-[#f5a623]/30 shadow-[0_20px_50px_rgba(245,166,35,0.2)] book-breathing-right" />
               </div>
               <div className="flex-1 space-y-6">
                  <h3 className="text-4xl font-header text-white mb-4 uppercase tracking-tighter">Distribution {'>'} Product</h3>
@@ -580,13 +583,16 @@ export default function App() {
                  <blockquote className="border-l-4 border-[#f5a623] pl-4 text-white/50 text-sm font-cinematic italic">
                    The status game is changing. Media is the leverage.
                  </blockquote>
+                 <a href="https://www.amazon.in/Content-Creator-Handbook-Ultimate-Creating/dp/0143465228?s=bazaar" target="_blank" rel="noopener noreferrer" className="inline-block mt-4 text-xs font-pixel text-[#f5a623]/80 hover:text-[#f5a623] hover:underline">
+                   {">>>"} LOOT_KNOWLEDGE_PACKET
+                 </a>
               </div>
             </div>
           </div>
 
           {/* Skill Node 4 */}
           <div className="w-[85vw] flex-shrink-0 flex items-center pr-[10vw] relative group">
-            <div className="bg-bg-panel/40 border-l-4 border-neon-red p-12 backdrop-blur-xl w-full max-w-4xl foil-card relative overflow-hidden flex flex-col md:flex-row gap-10 items-center">
+            <div className="bg-bg-panel/40 border-l-4 border-neon-red p-12 backdrop-blur-xl w-full max-w-4xl foil-card relative overflow-hidden flex flex-col md:flex-row gap-10 items-center shadow-[0_0_60px_#ff3b5c22]">
               <div className="w-full md:w-1/3 flex-shrink-0">
                  <img src="/Shashank Udupa.webp" className="w-full h-auto rounded-full border-4 border-neon-red shadow-[0_0_30px_#ff3b5c] filter contrast-110 sepia-[0.3]" />
               </div>
@@ -606,7 +612,7 @@ export default function App() {
       {/* ENDGAME / FOOTER */}
       <footer className="w-full bg-black py-20 px-8 flex flex-col items-center justify-center text-center relative z-20">
         <h2 className="text-5xl font-cinematic italic text-white/40 mb-10 hover:text-white/80 transition-colors cursor-default glitch-hover" data-text='"Odds are for losers."'>"Odds are for losers."</h2>
-        <p className="font-mono text-sm text-white/30 mb-10">Built by the AI tinkerers at <strong className="text-white/60">Brokai Labs</strong>.</p>
+        <p className="font-mono text-sm text-white/50 mb-10 glitch-subtle" data-text="Built by the AI tinkerers at Brokai Labs.">Built by the AI tinkerers at <strong className="text-white/80">Brokai Labs</strong>.</p>
         <a 
           href="https://brokailabs.com" 
           target="_blank" 
