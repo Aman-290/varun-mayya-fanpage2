@@ -294,7 +294,6 @@ export default function App() {
             <h1 className="text-3xl md:text-5xl font-header text-neon-green uppercase mb-8 md:mb-12 glitch-hover" data-text="LEVEL 1: THE KID WHO WANTED TO BE SUPERMAN">LEVEL 1: THE KID WHO WANTED TO BE SUPERMAN</h1>
             <div className="bg-bg-panel/90 p-6 md:p-8 rounded-xl border border-neon-green/40 backdrop-blur-sm space-y-4 shadow-[0_0_40px_rgba(0,245,160,0.2)]">
               <div className="flex items-center gap-4 mb-4">
-                <img src="/Brokai_logo.webp" className="w-10 h-10 md:w-12 md:h-12 rounded object-contain border border-white/10" alt="Brokai" />
                 <span className="text-[10px] md:text-xs font-pixel text-neon-green animate-pulse tracking-tighter uppercase">EST. 1993 // BENGALURU</span>
               </div>
               <p className="font-mono text-xs md:text-sm leading-loose">
